@@ -32,3 +32,7 @@ body::-webkit-scrollbar-thumb {
   background-color:  #ffb548;
   outline: 1px solid slategrey;
 }
+
+html {
+  scroll-behavior: smooth;
+}
