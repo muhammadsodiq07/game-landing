@@ -40,6 +40,10 @@ body::-webkit-scrollbar-thumb {
   outline: 1px solid slategrey;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
