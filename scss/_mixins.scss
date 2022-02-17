@@ -1,0 +1,7 @@
+@mixin list-style {
+  list-style: none;
+}
+@mixin link {
+  text-decoration: none;
+  display: inline-block;
+}
