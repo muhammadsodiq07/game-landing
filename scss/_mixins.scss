@@ -5,3 +5,21 @@
   text-decoration: none;
   display: inline-block;
 }
+@mixin title {
+  width: 100%;
+  font-size: 33px;
+  line-height: 33px;
+}
+@mixin text {
+  font-size: 18px;
+  line-height: 18px;
+  letter-spacing: 2px;
+}
+
+
+@mixin desc {
+  width: 100%;
+  font-size: 21px;
+  line-height: 21px;
+  letter-spacing: 2px;
+}

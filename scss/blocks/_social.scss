@@ -46,17 +46,26 @@
   line-height: 22px;
   color: $color;
 }
+.social {
+  padding: 0 !important;
+}
 
 .social__main--div {
   padding-top: 130px;
 }
-.social__img {
-  width: 450px;
-  height: auto;
-}
-.carousel-item  {
+
+.carousel-item{
   width: 100%;
-  height: 580px;
+  height: 100%;
+}
+.social__img {
+  width: 500px;
+  height: 100%;
+  object-fit: cover;
+}
+.carousel-inner {
+  max-width: 503px;
+  height: 510px;
 }
 @media screen and (max-width: 890px) {
   .social {
@@ -76,24 +85,24 @@
   }
   .social__img {
     width: 100%;
-    height: auto;
+    height: 100%;
   }
   .social__title::after {
     width: 100%;
-  }
-  .carousel-item  {
-    width: 100%;
-    height: auto;
-  }
-  .carousel-control-next {
-    position: absolute;
-    right: -35px;
+  } 
+  .carousel-item {
+    padding-left: 150px;  
   }
 }
 
 @media screen and (max-width: 768px) {
   .social__decs {
     padding-left: 0;
+  }
+}
+@media screen and (max-width: 680px) {
+  .carousel-item  {
+    padding-left: 0px !important;
   }
 }
 
