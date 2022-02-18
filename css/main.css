@@ -564,7 +564,7 @@ template {
 }
 
 .bg-img {
-  background-image: url("/images/bg-hero.jpg");
+  background-image: url("../../images/bg-hero.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -738,7 +738,7 @@ template {
 }
 
 .bg-main {
-  background-image: url("/images/bg-main-img.jpg");
+  background-image: url("../../images/bg-main-img.jpg");
   width: 100%;
   height: 100%;
   background-repeat: no-repeat;
@@ -797,6 +797,11 @@ template {
   height: auto;
 }
 
+.carousel-item {
+  width: 100%;
+  height: 580px;
+}
+
 @media screen and (max-width: 890px) {
   .social {
     -webkit-box-orient: vertical;
@@ -830,6 +835,14 @@ template {
   }
   .social__title::after {
     width: 100%;
+  }
+  .carousel-item {
+    width: 100%;
+    height: auto;
+  }
+  .carousel-control-next {
+    position: absolute;
+    right: -35px;
   }
 }
 

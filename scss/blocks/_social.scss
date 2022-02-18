@@ -1,5 +1,5 @@
 .bg-main {
-  background-image: url('/images/bg-main-img.jpg');
+  background-image: url('../../images/bg-main-img.jpg');
   width: 100%;
   height: 100%;
   background-repeat: no-repeat;
@@ -54,10 +54,10 @@
   width: 450px;
   height: auto;
 }
-
-
-
-
+.carousel-item  {
+  width: 100%;
+  height: 580px;
+}
 @media screen and (max-width: 890px) {
   .social {
     flex-direction: column;
@@ -80,6 +80,14 @@
   }
   .social__title::after {
     width: 100%;
+  }
+  .carousel-item  {
+    width: 100%;
+    height: auto;
+  }
+  .carousel-control-next {
+    position: absolute;
+    right: -35px;
   }
 }
 
